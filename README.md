@@ -1,5 +1,7 @@
 # docker-share-files
 
+![Docker Image CI](https://github.com/rodolfobandeira/docker-share-files/workflows/Docker%20Image%20CI/badge.svg)
+
 #### Description:
 
 This Docker repository starts an HTTP server on port 8080 (http://localhost:8080) showing the famous "index of" listing all files from the local folder `./shared-files`. It is a great way to quickly share files through the network. You can get your private IP with `ifconfig`(MacOS/Linux/*BSD) or`ipconfig`(Windows).
