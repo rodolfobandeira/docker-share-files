@@ -10,7 +10,7 @@ This Docker repository starts an HTTP server on port 8080 (http://localhost:8080
 
 This docker uses the official Nginx docker image based on Alpine Linux. I decided to use Alpine because it packs everything that you need on just 18MB. :sunglasses:
 When `docker-compose up` is called via command line, it creates two volumes that is shared between the Docker container and host machine. 
-The fist volume makes the connection between a local folder and your Docker container. That means, if you add a new file inside `./shared-folder`, it will be available automatically on the web interface. (Of course you need to reload the page).
+The first volume makes the connection between a local folder and your Docker container. That means, if you add a new file inside `./shared-folder`, it will be available automatically on the web interface. (Of course you need to reload the page).
 The second volume make possible you customize the Nginx config. That being said, it points `./config/default.conf` to `/usr/share/nginx/html` 
 
 We have two folders under this project:
